@@ -20,5 +20,5 @@ would also be responsible for running the validators and observers in the approp
 the toolset signals the orchestrator to perform actions in the OpenStack environment but has no control whatsoever and how things are done by the orchestrator, so the orchestrator
 is responsible for the upgrade process itself.
 
-- (*Use Case not in scope for this Spec*) The third use case is about having full control over the deployment/upgrade process and full control of the test process.
+- (**Use Case not in scope for this Spec**) The third use case is about having full control over the deployment/upgrade process and full control of the test process.
 This use case is very similar to the second one, but in this case the toolset has its own orchestrator therefore is in full control of the deployment/upgrade process.
