@@ -107,7 +107,9 @@ There are three main use cases for the toolset:
   is important to note that in this use case the toolset signals the
   orchestrator to perform actions in the OpenStack environment but has no
   control whatsoever in how things are done by the orchestrator, so the
-  orchestrator is responsible for the upgrade process itself.
+  orchestrator is responsible for the upgrade process itself. If a new
+  orchestrator is to be used, a new driver will have to be implemented for this
+  orchestrator.
 
 - The third use case (**Not in scope for this Spec**) is about having full
   control over the deployment/upgrade process and full control of the test
@@ -213,16 +215,17 @@ Assignee(s)
 Work Items
 ----------
 
-At least the following modules will need to be implemented.
+At least the following modules will need to be implemented:
 
 Control Modules:
- - Data store
- - Test manager
- - External tests plugin system
- - Deployment control interface
- - Report generator
- - Data parser
- - Configuration manager
+
+- Data store
+- Test manager
+- External tests plugin system
+- Deployment control interface
+- Report generator
+- Data parser
+- Configuration manager
 
 OpenStack Validator Modules:
 
