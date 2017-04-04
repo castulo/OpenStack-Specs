@@ -216,13 +216,13 @@ Work Items
 At least the following modules will need to be implemented.
 
 Control Modules:
-- Data store
-- Test manager
-- External tests plugin system
-- Deployment control interface
-- Report generator
-- Data parser
-- Configuration manager
+ - Data store
+ - Test manager
+ - External tests plugin system
+ - Deployment control interface
+ - Report generator
+ - Data parser
+ - Configuration manager
 
 OpenStack Validator Modules:
 - Release version validator
