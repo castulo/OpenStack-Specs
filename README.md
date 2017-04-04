@@ -5,12 +5,7 @@ Use Cases
 
 There are three main use cases for the toolset:
 
-- In the first use case, the toolset has no control over the deployment/upgrade process
-and no control of the test process.
-A consumer, someone like an OpenStack developer, or a downstream project (OpenStack Ansible, Kolla, etc.), use tools at will from the toolset to perform validations on a cloud.
-They can choose to run as many tools from the toolset as they want and in whatever order they want. In this use case, the toolset is not the one controlling the process, so it is
-unaware of the upgrade process. Therefore if used this way to test upgrades, the consumer would be responsible for deploying the environment, running the validators and observers
-in the correct place in the upgrade process, performing the upgrade, and stopping the observers once the upgrade finishes.
+- In the first use case, the toolset has no control over the deployment/upgrade process and no control of the test process. A consumer, someone like an OpenStack developer, or a downstream project (OpenStack Ansible, Kolla, etc.), use tools at will from the toolset to perform validations on a cloud.They can choose to run as many tools from the toolset as they want and in whatever order they want. In this use case, the toolset is not the one controlling the process, so it is unaware of the upgrade process. Therefore if used this way to test upgrades, the consumer would be responsible for deploying the environment, running the validators and observers in the correct place in the upgrade process, performing the upgrade, and stopping the observers once the upgrade finishes.
 
 - The second use case is about the toolset having partial control over the deployment/upgrade process but full control of the test process.
 In this use case, the toolset uses a driver to communicate with the orchestrator (in this case a deployment tool like OpenStack Ansible, Kolla, etc.).
