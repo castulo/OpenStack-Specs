@@ -248,18 +248,18 @@ The construction of this toolset is a large effort, we will be building it
 incrementally during more than one cycle.
 
 Depending on the type of upgrade to be tested, not all the modules from the
-toolset may be needed. For example, to be able to test a `rolling upgrade`_, all
+toolset may be needed. For example, to be able to test a rolling upgrade, all
 the *OpenStack validator modules* are required, but none of the *OpenStack
-observer modules* are. For a `zero downtime upgrade`_, all modules from the
+observer modules* are. For a zero downtime upgrade, all modules from the
 *OpenStack validator modules* are required and it also requires some of the
 *OpenStack observer modules*, like the *API uptime observer* and the
-*service availability observer*. Finally, to test `zero impact upgrade`_, all
+*service availability observer*. Finally, to test a zero impact upgrade, all
 of the *OpenStack validator modules* are required and all of the *OpenStack
 validator modules* are required as well.
 
 The milestones for Pike will focus in implementing those modules required for a
-rolling upgrade which means implementing all of the *OpenStack validator modules
-* and only the minimum necessary *control modules*.
+rolling upgrade which means implementing all of the *OpenStack validator
+modules* and only the minimum necessary *control modules*.
 
 This list contains the target modules to be implemented during pike:
 
