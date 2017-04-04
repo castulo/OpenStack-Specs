@@ -225,11 +225,13 @@ Control Modules:
  - Configuration manager
 
 OpenStack Validator Modules:
+
 - Release version validator
 - System health validator
 - Persistent resources validator
 
 OpenStack Observer Modules:
+
 - API uptime observer
 - Service availability observer
 - Service performance observer
