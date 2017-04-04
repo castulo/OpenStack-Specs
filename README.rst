@@ -213,7 +213,7 @@ Assignee(s)
 Work Items
 ----------
 
-At least the following modules will need to be implemented:
+At least the following modules will need to be implemented.
 
 Control Modules:
 - Data store
