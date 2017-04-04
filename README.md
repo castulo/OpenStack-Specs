@@ -22,3 +22,15 @@ is responsible for the upgrade process itself.
 
 - (**Use Case not in scope for this Spec**) The third use case is about having full control over the deployment/upgrade process and full control of the test process.
 This use case is very similar to the second one, but in this case the toolset has its own orchestrator therefore is in full control of the deployment/upgrade process.
+
+
+Requirements
+------------
+
+**Functional**
+
+1. The tool must be agnostic to the OpenStack environment and to the deployment tool used, performing actions consistently
+   across different environments
+2. It must validate that services are actually at the correct release version at any given time
+3. It must validate that all services are functional at any given time (e.g. before, during and after 
+an upgrade)
